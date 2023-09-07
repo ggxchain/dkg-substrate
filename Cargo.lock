@@ -2445,7 +2445,7 @@ dependencies = [
  "tokio-stream",
  "tracing",
  "uuid 1.4.0",
- "webb-proposals 0.5.24",
+ "webb-proposals 0.6.0",
 ]
 
 [[package]]
@@ -2533,7 +2533,7 @@ dependencies = [
  "sp-runtime 7.0.0",
  "sp-std 5.0.0",
  "tiny-keccak",
- "webb-proposals 0.5.24",
+ "webb-proposals 0.6.0",
 ]
 
 [[package]]
@@ -6546,7 +6546,7 @@ dependencies = [
  "sp-io 7.0.0",
  "sp-runtime 7.0.0",
  "sp-std 5.0.0",
- "webb-proposals 0.5.24",
+ "webb-proposals 0.6.0",
 ]
 
 [[package]]
@@ -6590,7 +6590,7 @@ dependencies = [
  "sp-runtime 7.0.0",
  "sp-staking",
  "sp-std 5.0.0",
- "webb-proposals 0.5.24",
+ "webb-proposals 0.6.0",
 ]
 
 [[package]]
@@ -6618,7 +6618,7 @@ dependencies = [
  "sp-runtime 7.0.0",
  "sp-staking",
  "sp-std 5.0.0",
- "webb-proposals 0.5.24",
+ "webb-proposals 0.6.0",
 ]
 
 [[package]]
@@ -6646,7 +6646,7 @@ dependencies = [
  "sp-runtime 7.0.0",
  "sp-staking",
  "sp-std 5.0.0",
- "webb-proposals 0.5.24",
+ "webb-proposals 0.6.0",
 ]
 
 [[package]]
@@ -13531,15 +13531,14 @@ dependencies = [
 
 [[package]]
 name = "webb-proposals"
-version = "0.5.24"
-source = "git+https://github.com/webb-tools/webb-rs#1a770fcc66603450d8bbf61749fb853da4ab76d2"
+version = "0.6.0"
+source = "git+https://github.com/webb-tools/webb-rs?rev=2cd947558cedbd29a1d26f650e3de855f6380b9f#2cd947558cedbd29a1d26f650e3de855f6380b9f"
 dependencies = [
  "frame-support",
  "hex",
  "num-traits",
  "parity-scale-codec",
  "scale-info",
- "schemars",
  "serde",
  "tiny-keccak",
  "typed-builder 0.14.0",
