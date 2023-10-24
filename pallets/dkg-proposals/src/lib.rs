@@ -368,7 +368,7 @@ pub mod pallet {
 	}
 
 	#[pallet::genesis_build]
-	impl<T: Config> BuildGenesisConfig for GenesisConfig<T> {
+	impl<T: Config> GenesisBuild<T> for GenesisConfig<T> {
 		fn build(&self) {
 			for bytes in self.initial_chain_ids.iter() {
 				let mut chain_id_bytes = [0u8; TypedChainId::LENGTH];
